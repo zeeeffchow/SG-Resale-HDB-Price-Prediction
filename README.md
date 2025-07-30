@@ -1,4 +1,4 @@
-![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-red?logo=streamlit)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
