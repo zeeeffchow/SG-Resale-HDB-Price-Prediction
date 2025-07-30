@@ -1,0 +1,48 @@
+# Python cache and metadata
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.log
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets and environment config
+.env
+*.env
+
+# Streamlit
+.streamlit/
+.cache/
+
+# Model artifacts
+/model/*.pkl
+/model/*.joblib
+catboost_info/
+
+# Large data files
+data/**/*.csv
+!data/final_data/resale_data_sample.csv
+
+# Lock files
+*.lock
+*.zip
+*.tar.gz
+
+# VSCode and JetBrains IDE settings
+.vscode/
+.idea/
