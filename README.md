@@ -125,10 +125,10 @@ source .venv/bin/activate  # or .venv\Scripts\activate on Windows
 
 ### 2. Install dependencies (using uv or pip)
 
-# With uv (preferred if installed)
+#### With uv (preferred if installed)
 uv pip install -r requirements.txt
 
-# Or with pip
+#### Or with pip
 pip install -r requirements.txt
 
 ### 3. Run the Streamlit app
@@ -160,37 +160,37 @@ streamlit run Home.py
 
 ---
 
-### 🚧 Future Improvements
+## 🚧 Future Improvements
 
 This project is already functional, but there are several meaningful enhancements we plan to explore:
 
-#### 🔍 1. Explainable AI (XAI)
+### 🔍 1. Explainable AI (XAI)
 - Integrate **SHAP** or **LIME** to visualize feature importance on a per-prediction basis
 - Help users understand *why* a certain resale price is predicted
 
-#### 🌐 2. Interactive Map View
+### 🌐 2. Interactive Map View
 - Use **Folium**, **Pydeck**, or **Mapbox** to plot predicted flats on a map
 - Allow spatial filtering (e.g. only show flats within 2km of a specific MRT)
 
-#### 💬 3. Natural Language Query Interface
+### 💬 3. Natural Language Query Interface
 - Let users ask questions like “What can I buy in Toa Payoh for under $600k in 2027?”
 - Implement using **LLM + RAG** or Streamlit’s chatbot integrations
 
-#### 🗃 4. Model Version Comparison
+### 🗃 4. Model Version Comparison
 - Allow toggling between different models (Linear, XGBoost, etc.)
 - Display comparative performance or prediction differences
 
-#### 🧠 5. Retrainable Pipelines
+### 🧠 5. Retrainable Pipelines
 - Add ability to retrain model with updated resale data
 - Expose retraining as a CLI or admin-only page
 
-#### 📤 6. Price Sensitivity / Scenario Simulation
+### 📤 6. Price Sensitivity / Scenario Simulation
 - Add a “what-if” mode to simulate impact of changing floor area, lease years, or location on predicted price
 
-#### 🌍 7. Multilingual Support
+### 🌍 7. Multilingual Support
 - Add Mandarin or Malay support to make the app more accessible to local users
 
-#### 🧱 8. Containerization & Deployment
+### 🧱 8. Containerization & Deployment
 - Add `Dockerfile` for reproducible builds
 - Deploy on Streamlit Cloud, Render, or a custom VPS with CI/CD
 
