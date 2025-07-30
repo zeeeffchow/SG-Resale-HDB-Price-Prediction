@@ -58,6 +58,10 @@ Key steps:
   - Distance to nearest MRT, hawker, school, park, hospital, etc.
   - Number of amenities within 1km
 
+* Merged geospatial features from OneMap API and custom crawlers:
+    * Distance to nearest MRT, hawker, school, park, hospital, etc.
+    * Number of amenities within 1km
+
 ---
 
 ## 🛠 Feature Engineering
