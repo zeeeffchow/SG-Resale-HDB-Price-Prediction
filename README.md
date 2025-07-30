@@ -201,13 +201,17 @@ MIT License
 
 ## 🙋‍♂️ Contributing
 Pull requests and feature ideas welcome!
+
 Please open an issue or submit a PR for improvements, enhancements, or bug fixes.
 
 ---
 
 ## 👤 Author
+
 Built by Zheng Feng
+
 Email: zhengfengchow@gmail.com
+
 GitHub: @zeeeffchow
 
 ---
