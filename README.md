@@ -49,7 +49,7 @@ This project uses public HDB resale transaction data from [data.gov.sg](https://
 
 ## 📊 Data Preparation & EDA
 
-We used HDB resale data from **2015 to 2025** (≈250,000 records). Data prior to 2015 was excluded because it did not contain the `remaining_lease` feature, which we consider crucial for resale price prediction.
+We used HDB resale data from **2015 to 2025**. Data prior to 2015 was excluded because it did not contain the `remaining_lease` feature. Furthermore, there were ≈250,000 records from 2015 onwards, which is plenty enough data to work with.
 
 Key steps:
 - Removed unnecessary columns (e.g. block number, full address)
