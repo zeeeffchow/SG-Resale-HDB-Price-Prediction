@@ -7,7 +7,7 @@
 
 A personal machine learning and data science project to predict resale prices of public housing (HDB flats) in Singapore. This project was built to explore real-world modeling workflows and end-to-end deployment using Streamlit and a trained Random Forest model.
 
-Unlike many similar projects, this one places a stronger emphasis on **geospatial distance-based features** — such as proximity to MRT stations, hawker centres, and schools — to test the hypothesis that accessibility and location amenities play a significant role in influencing HDB resale prices.
+Unlike similar projects, I decided a stronger emphasis on **geospatial distance-based features** — such as proximity to MRT stations, hawker centres, and schools — to test the hypothesis that accessibility and location amenities play a significant role in influencing HDB resale prices.
 
 This app allows users to:
 - 📈 Predict the fair resale price of an individual HDB unit based on its attributes
