@@ -27,7 +27,7 @@ This app allows users to:
 
 ## 📂 Dataset
 
-This project uses public HDB resale transaction data from [data.gov.sg](https://data.gov.sg), combined with geospatial distance-based information (MRT, hawker centres, parks, schools, etc.).
+This project uses public HDB resale transaction data from [data.gov.sg](https://data.gov.sg), combined with geospatial distance-based information (MRT, hawker centres, parks, schools, etc.). To keep this repo lightweight, the full dataset is hosted externally.
 
 🔽 **Download the full dataset (300+MB):**  
 [📁 Google Drive: Full /data Folder](https://drive.google.com/drive/folders/1QKTWNTkc8RoB7dt_kUlKGi4F_aUvH1pR?usp=sharing)
