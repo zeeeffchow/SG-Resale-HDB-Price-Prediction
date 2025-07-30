@@ -35,7 +35,22 @@ This project uses public HDB resale transaction data from [data.gov.sg](https://
 **To use:**
 1. Download the full contents of the Drive folder
 2. Place the folder into your project root as `./data/`
-<pre> 3. The final structure should look like: ``` SG Resale HDB Price Prediction/ ├── data/ │ ├── final_data/ │ └── raw_data/ ├── model/ ├── pages/ └── streamlit_app.py ``` </pre>
+3. SG Resale HDB Price Prediction/
+├── data/ # Processed and raw datasets (external download)
+│ ├── final_data/
+│ └── raw_data/
+├── model/ # Trained ML model + encoders
+│ ├── best_rf_model.pkl
+│ └── label_encoders.pkl
+├── notebooks/ # Jupyter notebooks for EDA & modeling
+├── pages/ # Streamlit multipage UI
+│ ├── Predict Price.py
+│ └── Future Affordability.py
+├── helpers/ # Scripts (e.g. OneMap API helpers)
+├── streamlit_app.py # Landing page
+├── pyproject.toml # Project metadata and dependencies
+├── requirements.txt # Installable dependencies
+└── README.md # You're here!
 
 ---
 
