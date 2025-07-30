@@ -126,13 +126,13 @@ source .venv/bin/activate  # or .venv\Scripts\activate on Windows
 ### 2. Install dependencies (using uv or pip)
 
 #### With uv (preferred if installed)
-uv pip install -r requirements.txt
+``` uv pip install -r requirements.txt ```
 
 #### Or with pip
-pip install -r requirements.txt
+``` pip install -r requirements.txt ```
 
 ### 3. Run the Streamlit app
-streamlit run Home.py
+``` streamlit run Home.py ```
 
 ---
 
