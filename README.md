@@ -45,7 +45,6 @@ This project uses public HDB resale transaction data from [data.gov.sg](https://
 ├── pages/
 └── streamlit_app.py
 ```
-
 ---
 
 ## 📊 Data Preparation & EDA
@@ -97,6 +96,7 @@ This means the average predicted resale price is within ±3.8% of actual transac
 ## 🧱 Project Structure 
 
 ```
+SG Resale HDB Price Prediction/
 ├── data/ # Processed and raw datasets (external download)
 │ ├── final_data/
 │ └── raw_data/
