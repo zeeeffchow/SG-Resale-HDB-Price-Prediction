@@ -43,7 +43,7 @@ This project uses public HDB resale transaction data from [data.gov.sg](https://
 │ └── raw_data/
 ├── model/
 ├── pages/
-└── streamlit_app.py
+└── Home.py
 ```
 ---
 
@@ -108,7 +108,7 @@ SG Resale HDB Price Prediction/
 │ ├── Predict Price.py
 │ └── Future Affordability.py
 ├── helpers/ # Scripts (e.g. OneMap API helpers)
-├── streamlit_app.py # Landing page
+├── Home.py # Landing page
 ├── pyproject.toml # Project metadata and dependencies
 ├── requirements.txt # Installable dependencies
 └── README.md # You're here!
@@ -162,7 +162,7 @@ streamlit run Home.py
 
 ## 🚧 Future Improvements
 
-This project is already functional, but there are several meaningful enhancements we plan to explore:
+This project is already functional, but there are several meaningful enhancements we can explore:
 
 ### 🔍 1. Explainable AI (XAI)
 - Integrate **SHAP** or **LIME** to visualize feature importance on a per-prediction basis
