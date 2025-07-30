@@ -58,10 +58,6 @@ Key steps:
   - Distance to nearest MRT, hawker, school, park, hospital, etc.
   - Number of amenities within 1km
 
-* Merged geospatial features from OneMap API and custom crawlers:
-    * Distance to nearest MRT, hawker, school, park, hospital, etc.
-    * Number of amenities within 1km
-
 ---
 
 ## 🛠 Feature Engineering
@@ -144,13 +140,11 @@ streamlit run Home.py
 - Random Forest Regressor (primary deployed model)
 - Baseline models: Linear, Ridge, Lasso, Gradient Boosting, XGBoost, LightGBM, CatBoost
 - Feature Engineering:
-<ul>
-    <li>Remaining lease</li>
-    <li>Proximity to amenities (MRT, schools, parks, etc.)</li>
-    <li>Encoded categorical features (LabelEncoder)</li>
-    <li>Trained using 10 years of resale transaction data (from 2015-2025)</li>
-</ul>
-
+  - Remaining lease
+  - Proximity to amenities (MRT, schools, parks, etc.)
+  - Encoded categorical features (LabelEncoder)
+  - Trained using 10 years of resale transaction data (from 2015-2025)
+ 
 ---
 
 ## 🛠 Tech Stack
