@@ -143,7 +143,7 @@ streamlit run Home.py
   - Remaining lease
   - Proximity to amenities (MRT, schools, parks, etc.)
   - Encoded categorical features (LabelEncoder)
-  - Trained using 10 years of resale transaction data (from 2015-2025)
+- Trained using 10 years of resale transaction data (from 2015-2025)
  
 ---
 
